@@ -1,6 +1,7 @@
 #include <iostream>
 #include "sources/MagicalContainer.hpp"
 
+
 using namespace ariel;
 int main() {
     // Create a MagicalContainer and add some elements
@@ -42,5 +43,5 @@ int main() {
     container.removeElement(9);
     std::cout << "Size of container after removing an element: " << container.size() << std::endl;
 
-    return 0;
-}
+     return 0;
+ }

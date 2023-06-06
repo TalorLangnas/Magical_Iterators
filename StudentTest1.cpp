@@ -196,9 +196,9 @@ TEST_CASE("Traversing PrimeIterator") {
     container.addElement(4);
     container.addElement(5);
     container.addElement(14);
-
     SUBCASE("Iterating over prime elements") {
         MagicalContainer::PrimeIterator it(container);
+    cout << endl ;
         CHECK(*it == 2);
         ++it;
         CHECK(*it == 5);
